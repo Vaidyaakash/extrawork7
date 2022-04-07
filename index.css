@@ -1,0 +1,49 @@
+.container{
+    height: 600px;
+    width: 800px;
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    bottom: 100px;
+    /* color: brown; */
+}
+.child{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    color: lightcyan;
+}
+.one{
+    background-color: blue;
+    top:0px;
+    left: 0px;
+}
+.two{
+    background-color: rgb(255, 0, 64);
+    top:0px;
+    right: 0px;
+}
+.three{
+    background-color: rgb(18, 122, 0);
+    bottom: 0px;
+
+}
+.four{
+    background-color: rgb(191, 0, 255);
+    bottom: 0px;
+    right: 0px;
+}
+.sticky{
+    position: sticky;
+    height: 65px;
+    width: 80px;
+    background-color: rgb(199, 255, 116);
+    top: 0px;
+    left: 100%;
+    z-index: 2;
+    color: rgb(13, 0, 190);
+    /* justify-content: center; */
+    text-align: center;
+    padding-top:25px ;
+}
